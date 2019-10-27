@@ -1,1 +1,576 @@
 /* Enter your Styles below! */
+@font-face {
+  font-family: "ISO";
+  src: url("../fonts/ISOv0.6-Regular.eot");
+  src:
+  url("../fonts/ISOv0.6-Regular.woff") format("woff"),
+  url("../fonts/ISOv0.6-Regular.otf") format("opentype"),
+  url("../fonts/ISOv0.6-Regular.svg#filename") format("svg");
+}
+
+@font-face {
+  font-family: "ISO-Light";
+  src: url("../fonts/ISOv0.6-Light.eot");
+  src:
+  url("../fonts/ISOv0.6-Light.woff") format("woff"),
+  url("../fonts/ISOv0.6-Light.otf") format("opentype"),
+  url("../fonts/ISOv0.6-Light.svg#filename") format("svg");
+}
+
+@font-face {
+  font-family: "ISO-Medium";
+  src: url("../fonts/ISOv0.6-Medium.eot");
+  src:
+  url("../fonts/ISOv0.6-Medium.woff") format("woff"),
+  url("../fonts/ISOv0.6-Medium.otf") format("opentype"),
+  url("../fonts/ISOv0.6-Medium.svg#filename") format("svg");
+}
+
+nav {
+  font-family: Hind;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 150px;
+  border: none;
+  overflow: hidden;
+  background-color: #323232;
+}
+
+body {
+  background-color: #D6D6D6;
+  max-height: 1400px;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+}
+
+
+h1 {
+  font-family: 'Hind', sans-serif;
+  font-size: 350%;
+  padding-top: 50px;
+  color: white;
+}
+h2 {
+  font-family: 'Hind', sans-serif;
+  font-size: 200%;
+  padding-top: 10px;
+  color: white;
+}
+h3 {
+  font-family: 'Hind', sans-serif;
+  font-size: 125%;
+  padding-top: 15px;
+  padding-bottom: 440px;
+  color: #676767;
+}
+
+/* Link Navigation */
+
+.linknav:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.linknav:link {
+  text-decoration: none;
+  color: white;
+}
+
+.linknav:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.linknav:active {
+  text-decoration: none;
+  color: white;
+}
+
+/* Home Page Footer Links */
+
+.footerMainDescrip:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.footerMainDescrip:link {
+  text-decoration: none;
+  color: white;
+}
+
+.footerMainDescrip:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.footerMainDescrip:active {
+  text-decoration: none;
+  color: black;
+}
+
+.footerMainImage:hover {
+  content: url(..GitHub/hello-world/images/down-arrow-black.png);
+  display: block;
+  position: fixed;
+  bottom: 0;
+  padding: 0px 630px;
+  width: 1%;
+  height: 1%;
+  padding-bottom: 40px;
+}
+
+/* General Links */
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+/* Homepage */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+  padding-top: 175px;
+}
+
+.footerMain {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.footerMainDescrip {
+  font-size: 1em;
+  font-family: Hind;
+  font-weight: lighter;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 235px;
+}
+
+.footerMainImage {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  padding: 0px 630px;
+  width: 1%;
+  height: 1%;
+  padding-bottom: 40px;
+}
+
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%; 
+  z-index: -1;
+}
+
+/* About */
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  justify-content: center;
+}
+
+.aboutBody {
+  font-family: Hind;
+  font-size: 1em;
+  line-height: 22px;
+  font-weight: lighter;
+  padding-top: 50px;
+  text-align: justify;
+}
+
+.aboutFlowerOnePic {
+  height: 300px;
+  width: 200px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.aboutFlowerTwoPic {
+  height: 300px;
+  width: 100px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.footerAboutPage {
+  background-color: #D6D6D6;
+  font-family: Hind;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  width: 100%;
+}
+
+.greyLogoAbout {
+  height: 22%;
+  width: 8%;
+  position: absolute;
+  padding: 90px 80px 0px 80px;
+}
+
+.aboutAbout {
+  padding: 100px 80px 35px 0px;
+  font-family: Hind;
+  color: #939598;
+}
+
+.copyrightAbout {
+  padding: 100px 80px 35px 40px;
+  font-family: Hind; 
+  color: #939598;
+}
+
+.footerLinkAbout:hover {
+  content: url(..GitHub/hello-world/images/artifacts-black-logo.png);
+  height: 22%;
+  width: 8%;
+  position: absolute;
+  padding: 90px 80px 0px 80px;
+}
+
+/* About Link */
+
+.aboutLink:visited {
+  text-decoration: none;
+  color: #939598;
+  font-weight: lighter;
+}
+
+.aboutLink:link {
+  text-decoration: none;
+  color: #939598;
+  font-weight: lighter;
+}
+
+.aboutLink:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.aboutLink:active {
+  text-decoration: none;
+  color: #939598;
+  font-weight: lighter;
+}
+
+/* Step One */
+
+.flowerOne {
+  position: fixed;
+  background-position: top center;
+  top: -190px;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: 800px;
+  z-index: -1;
+}
+
+.infoOne {
+  background-color: #D6D6D6;
+  position: static;
+  bottom:0;
+  width:100%;
+  height:575px;
+  margin:0;
+  padding:0;
+  z-index: -1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.leafOne {
+  width: 420px;
+  height: 420px;
+  padding: 0px 100px 100px 160px;
+}
+
+.instruction {
+  font-family: Hind;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 22px;
+  font-weight: lighter;
+  padding: 20px 160px 100px 20px;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1.8fr 1.2fr;
+  justify-content: center;
+}
+
+.headerOne {
+  font-family: Hind;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-left: 190px;
+  padding-bottom: -50px;
+}
+
+.headerTwo {
+  font-family: Hind;
+  padding: 45px 180px 30px 255px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: inset;
+  border-width: .5px;
+  border-color: black;
+}
+
+.footerOne {
+  background-color: #D6D6D6;
+  font-family: Hind;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  width: 100%;
+}
+
+.greyLogo {
+  height: 35%;
+  width: 8%;
+  position: absolute;
+  padding: 35px 80px 0px 80px;
+}
+
+.about {
+  padding: 40px 80px 35px 0px;
+  font-family: Hind;
+  color: #939598;
+}
+
+.copyright {
+  padding: 40px 80px 35px 40px;
+  font-family: Hind; 
+  color: #939598;
+}
+
+.footerLink:hover {
+  content: url(..GitHub/hello-world/images/artifacts-black-logo.png);
+  height: 35%;
+  width: 8%;
+  position: absolute;
+  padding: 35px 80px 0px 80px;
+}
+
+.footerThree {
+  background-color: #D6D6D6;
+  font-family: Hind;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  width: 100%;
+  top: 1194px;
+}
+
+/* Step Two */
+
+.flowerTwo {
+  position: fixed;
+  background-position: top center;
+  top: -175px;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: 800px;
+  z-index: -1;
+}
+
+.infoTwo {
+  background-color: #D6D6D6;
+  position: static;
+  bottom:0;
+  width:100%;
+  height:575px;
+  margin:0;
+  padding:0;
+  z-index: -1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.leafTwo {
+  transform: rotate(-10deg);
+  width: 25%;
+  height: 95%;
+  padding: 0px 300px 0px 100px;
+}
+
+.instructionTwo {
+  font-family: Hind;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 22px;
+  font-weight: lighter;
+  padding: 20px 0px 0px 200px;
+}
+
+.listTwo {
+  list-style-type: decimal;
+  padding-left: 28px;
+  text-align: justify;
+}
+
+/* Step Three */
+
+.flowerThree {
+  position: fixed;
+  background-position: top center;
+  right: 0;
+  bottom: 0;
+  top: -240px;
+  min-width: 100%;
+  height: 800px;
+  z-index: -1;
+}
+
+.headerTwoThree {
+  font-family: Hind;
+  padding: 45px 180px 30px 240px;
+}
+
+.grid-containerThree {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  grid-gap: 40px;
+}
+
+.infoThree {
+  background-color: #D6D6D6;
+  position: static;
+  bottom:0;
+  width:100%;
+  height:575px;
+  margin:0;
+  padding:0;
+  z-index: -1;
+}
+
+.instructionThree {
+  font-family: Hind;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 22px;
+  font-weight: lighter;
+  padding: 20px 40px 0px 200px;
+}
+
+.columnTwo {
+  font-family: Hind;
+  font-size: 1em;
+  line-height: 22px;
+  font-weight: lighter;
+  padding: 130px 200px 0px 0px;
+}
+
+.leafContainerThree {
+  background-color: #D6D6D6;
+  width: 100%;
+}
+
+.leafThree {
+  background-color: #D6D6D6;
+  width: 290px;
+  height: 100px;
+  padding: 10px 525px 0px 0px;
+}
+
+.listThree {
+  list-style-type: decimal;
+  padding-left: 28px;
+  text-align: justify;
+}
+
+/* Step Four */
+
+.headerTwoFour {
+  font-family: Hind;
+  padding: 45px 180px 30px 240px;
+}
+
+.instructionFour {
+  font-family: Hind;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 22px;
+  font-weight: lighter;
+  padding: 20px 180px 100px 60px;
+}
+
+.leafFour {
+  width: 300px;
+  height: 420px;
+  padding: 0px 50px 100px 200px;
+}
+
+.listFour {
+  list-style-type: decimal;
+  padding-left: 28px;
+  text-align: justify;
+  line-height: 32px;
+}
+
+/* Step Four Links */
+
+.linkStepFour:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.linkStepFour:link {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.linkStepFour:hover {
+  text-decoration: none;
+  color: #939598;
+  font-weight: lighter;
+}
+
+.linkStepFour:active {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}

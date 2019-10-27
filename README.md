@@ -11,7 +11,7 @@ This is the template repository for the first major project in the Design 341 cl
 
 4. In the upper drop-down menu, choose: File > Clone Repository
 
-5. Mae sure the GitHub.com tab is highlighted with a blue underline
+5. Make sure the GitHub.com tab is highlighted with a blue underline
 
 6. click on the repository you just forked. If it doesn't show up, try searching for it in the filter field.
 
