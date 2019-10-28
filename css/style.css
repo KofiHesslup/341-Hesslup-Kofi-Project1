@@ -8,24 +8,6 @@
   url("../fonts/ISOv0.6-Regular.svg#filename") format("svg");
 }
 
-@font-face {
-  font-family: "ISO-Light";
-  src: url("../fonts/ISOv0.6-Light.eot");
-  src:
-  url("../fonts/ISOv0.6-Light.woff") format("woff"),
-  url("../fonts/ISOv0.6-Light.otf") format("opentype"),
-  url("../fonts/ISOv0.6-Light.svg#filename") format("svg");
-}
-
-@font-face {
-  font-family: "ISO-Medium";
-  src: url("../fonts/ISOv0.6-Medium.eot");
-  src:
-  url("../fonts/ISOv0.6-Medium.woff") format("woff"),
-  url("../fonts/ISOv0.6-Medium.otf") format("opentype"),
-  url("../fonts/ISOv0.6-Medium.svg#filename") format("svg");
-}
-
 nav {
   font-family: Hind;
   justify-content: space-between;
@@ -38,7 +20,7 @@ nav {
 }
 
 body {
-  background-color: #D6D6D6;
+  background-color: #000000;
   max-height: 1400px;
   scroll-behavior: smooth;
 }
@@ -94,33 +76,22 @@ h3 {
 
 .footerMainDescrip:visited {
   text-decoration: none;
-  color: black;
+  color: #6D8DA6;
 }
 
 .footerMainDescrip:link {
   text-decoration: none;
-  color: white;
+  color: #6D8DA6;
 }
 
 .footerMainDescrip:hover {
   text-decoration: none;
-  color: black;
+  color: #6D8DA6;
 }
 
 .footerMainDescrip:active {
   text-decoration: none;
-  color: black;
-}
-
-.footerMainImage:hover {
-  content: url(..GitHub/hello-world/images/down-arrow-black.png);
-  display: block;
-  position: fixed;
-  bottom: 0;
-  padding: 0px 630px;
-  width: 1%;
-  height: 1%;
-  padding-bottom: 40px;
+  color: #6D8DA6;
 }
 
 /* General Links */
@@ -159,9 +130,9 @@ img {
   font-size: 1em;
   font-family: Hind;
   font-weight: lighter;
-  color: #FFFFFF;
+  color: #80B7DC;
   text-align: center;
-  padding-top: 235px;
+  padding-top: 0px;
 }
 
 .footerMainImage {
@@ -243,7 +214,7 @@ img {
 }
 
 .footerLinkAbout:hover {
-  content: url(..GitHub/hello-world/images/artifacts-black-logo.png);
+  content: url(artifacts-black-logo.png);
   height: 22%;
   width: 8%;
   position: absolute;
@@ -380,7 +351,7 @@ hr {
 }
 
 .footerLink:hover {
-  content: url(..GitHub/hello-world/images/artifacts-black-logo.png);
+  content: url(artifacts-black-logo.png);
   height: 35%;
   width: 8%;
   position: absolute;
