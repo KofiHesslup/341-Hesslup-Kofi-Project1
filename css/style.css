@@ -47,7 +47,7 @@ h3 {
   font-size: 125%;
   padding-top: 15px;
   padding-bottom: 440px;
-  color: #676767;
+  color: #80B7DC;
 }
 
 /* Link Navigation */
@@ -225,13 +225,13 @@ img {
 
 .aboutLink:visited {
   text-decoration: none;
-  color: #939598;
+  color: white;
   font-weight: lighter;
 }
 
 .aboutLink:link {
   text-decoration: none;
-  color: #939598;
+  color: white;
   font-weight: lighter;
 }
 
@@ -243,7 +243,7 @@ img {
 
 .aboutLink:active {
   text-decoration: none;
-  color: #939598;
+  color: white;
   font-weight: lighter;
 }
 
@@ -347,7 +347,7 @@ hr {
 .copyright {
   padding: 40px 80px 35px 40px;
   font-family: Hind; 
-  color: #939598;
+  color: #676767;
 }
 
 .footerLink:hover {
