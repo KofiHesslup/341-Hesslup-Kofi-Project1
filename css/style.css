@@ -1,13 +1,4 @@
 /* Enter your Styles below! */
-@font-face {
-  font-family: "ISO";
-  src: url("../fonts/ISOv0.6-Regular.eot");
-  src:
-  url("../fonts/ISOv0.6-Regular.woff") format("woff"),
-  url("../fonts/ISOv0.6-Regular.otf") format("opentype"),
-  url("../fonts/ISOv0.6-Regular.svg#filename") format("svg");
-}
-
 nav {
   font-family: Hind;
   justify-content: space-between;
@@ -170,14 +161,14 @@ a:active {
   text-align: justify;
 }
 
-.aboutFlowerOnePic {
+.aboutappleOnePic {
   height: 300px;
   width: 200px;
   padding-top: 50px;
   padding-left: 50px;
 }
 
-.aboutFlowerTwoPic {
+.aboutappleTwoPic {
   height: 300px;
   width: 100px;
   padding-top: 50px;
@@ -193,7 +184,7 @@ a:active {
   width: 100%;
 }
 
-.greyLogoAbout {
+.LogoAbout {
   height: 22%;
   width: 8%;
   position: absolute;
