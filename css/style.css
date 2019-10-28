@@ -50,6 +50,13 @@ h3 {
   color: #80B7DC;
 }
 
+h4 {
+  font-family: 'Hind', sans-serif;
+  font-size: 175%;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  color: black;
+}
 /* Link Navigation */
 
 .linknav:visited {
@@ -64,7 +71,7 @@ h3 {
 
 .linknav:hover {
   text-decoration: none;
-  color: black;
+  color: #676767;
 }
 
 .linknav:active {
@@ -86,7 +93,7 @@ h3 {
 
 .footerMainDescrip:hover {
   text-decoration: none;
-  color: #6D8DA6;
+  color: #676767;
 }
 
 .footerMainDescrip:active {
@@ -94,7 +101,7 @@ h3 {
   color: #6D8DA6;
 }
 
-/* General Links */
+/* Links General */
 
 a:visited {
   text-decoration: none;
@@ -108,18 +115,10 @@ a:link {
 
 a:active {
   text-decoration: none;
-  color: white;
+  color: #676767;
 }
 
 /* Homepage */
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 12%;
-  padding-top: 175px;
-}
 
 .footerMain {
   text-align: center;
@@ -213,55 +212,45 @@ img {
   color: #939598;
 }
 
-.footerLinkAbout:hover {
-  content: url(artifacts-black-logo.png);
-  height: 22%;
-  width: 8%;
-  position: absolute;
-  padding: 90px 80px 0px 80px;
-}
-
 /* About Link */
 
 .aboutLink:visited {
   text-decoration: none;
-  color: white;
+  color: #676767;
   font-weight: lighter;
+  padding-top: 10px;
+  
 }
 
 .aboutLink:link {
   text-decoration: none;
-  color: white;
+  color: #676767;
   font-weight: lighter;
+  padding-top: 10px;
+  
 }
 
 .aboutLink:hover {
   text-decoration: none;
-  color: black;
+  color: #676767;
   font-weight: lighter;
+  padding-top: 10px;
+  
 }
 
 .aboutLink:active {
   text-decoration: none;
-  color: white;
+  color: #676767;
   font-weight: lighter;
+  padding-bottom: : 10px;
+  
 }
 
-/* Step One */
+/* Gala page 1 */
 
-.flowerOne {
-  position: fixed;
-  background-position: top center;
-  top: -190px;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  height: 800px;
-  z-index: -1;
-}
 
 .infoOne {
-  background-color: #D6D6D6;
+  background-color: white;
   position: static;
   bottom:0;
   width:100%;
@@ -275,12 +264,13 @@ img {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: center;
+  color: #676767;
 }
 
 .leafOne {
-  width: 420px;
-  height: 420px;
-  padding: 0px 100px 100px 160px;
+  width: 418px;
+  height: 485px;
+  padding: 0px 100px 100px 150px;
 }
 
 .instruction {
@@ -289,28 +279,34 @@ img {
   text-align: justify;
   line-height: 22px;
   font-weight: lighter;
-  padding: 20px 160px 100px 20px;
+  padding: 0px 160px 100px 20px;
 }
 
 .header-container {
   display: grid;
   grid-template-columns: 1.8fr 1.2fr;
-  justify-content: center;
+  justify-content: left;
+  color: white;
 }
 
 .headerOne {
   font-family: Hind;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  padding-top: 30px;
-  padding-left: 190px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 150px;
   padding-bottom: -50px;
 }
 
 .headerTwo {
   font-family: Hind;
-  padding: 45px 180px 30px 255px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-bottom: -50px;
 }
 
 hr {
@@ -323,29 +319,23 @@ hr {
 }
 
 .footerOne {
-  background-color: #D6D6D6;
+  background-color: white;
   font-family: Hind;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  position: absolute;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em: 
   width: 100%;
-}
-
-.greyLogo {
-  height: 35%;
-  width: 8%;
-  position: absolute;
-  padding: 35px 80px 0px 80px;
+  padding-top: 60px;
+  padding-left: 150px;
 }
 
 .about {
-  padding: 40px 80px 35px 0px;
+  padding: 40px 80px 35px 40px;
   font-family: Hind;
-  color: #939598;
+  color: #676767;
 }
 
 .copyright {
-  padding: 40px 80px 35px 40px;
   font-family: Hind; 
   color: #676767;
 }
@@ -368,21 +358,10 @@ hr {
   top: 1194px;
 }
 
-/* Step Two */
-
-.flowerTwo {
-  position: fixed;
-  background-position: top center;
-  top: -175px;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  height: 800px;
-  z-index: -1;
-}
+/* Golden Delicious page 2 */
 
 .infoTwo {
-  background-color: #D6D6D6;
+  background-color: white;
   position: static;
   bottom:0;
   width:100%;
@@ -396,13 +375,13 @@ hr {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: center;
+  color: #676767;
 }
 
 .leafTwo {
-  transform: rotate(-10deg);
-  width: 25%;
-  height: 95%;
-  padding: 0px 300px 0px 100px;
+  width: 418px;
+  height: 485px;
+  padding: 0px 100px 100px 150px;
 }
 
 .instructionTwo {
@@ -411,27 +390,19 @@ hr {
   text-align: justify;
   line-height: 22px;
   font-weight: lighter;
-  padding: 20px 0px 0px 200px;
+  padding: 0px 0px 0px 150px;
 }
 
 .listTwo {
   list-style-type: decimal;
   padding-left: 28px;
   text-align: justify;
+  font-weight: bold;
+  font-size: 130%;
+  color: black;
 }
 
-/* Step Three */
-
-.flowerThree {
-  position: fixed;
-  background-position: top center;
-  right: 0;
-  bottom: 0;
-  top: -240px;
-  min-width: 100%;
-  height: 800px;
-  z-index: -1;
-}
+/* granny Smith page 3 */
 
 .headerTwoThree {
   font-family: Hind;
@@ -439,14 +410,14 @@ hr {
 }
 
 .grid-containerThree {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  grid-gap: 40px;
+ display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: left;
+  color: #676767;
 }
 
 .infoThree {
-  background-color: #D6D6D6;
+  background-color: white;
   position: static;
   bottom:0;
   width:100%;
@@ -474,28 +445,32 @@ hr {
 }
 
 .leafContainerThree {
-  background-color: #D6D6D6;
+  background-color: white;
   width: 100%;
 }
 
 .leafThree {
-  background-color: #D6D6D6;
-  width: 290px;
-  height: 100px;
-  padding: 10px 525px 0px 0px;
+ width: 418px;
+  height: 485px;
+  padding: 0px 100px 100px 150px;
 }
+
 
 .listThree {
-  list-style-type: decimal;
-  padding-left: 28px;
+  font-family: Hind;
+  font-size: 1em;
   text-align: justify;
+  line-height: 22px;
+  font-weight: lighter;
+  padding: 0px 160px 100px 20px;
 }
 
-/* Step Four */
+/* Red Delicious page 4 */
 
 .headerTwoFour {
   font-family: Hind;
   padding: 45px 180px 30px 240px;
+  background-color: white;
 }
 
 .instructionFour {
@@ -504,44 +479,15 @@ hr {
   text-align: justify;
   line-height: 22px;
   font-weight: lighter;
-  padding: 20px 180px 100px 60px;
+  padding: 0px 180px 100px 60px;
+  background-color: white;
+
 }
 
 .leafFour {
-  width: 300px;
-  height: 420px;
-  padding: 0px 50px 100px 200px;
+  width: 418px;
+  height: 485px;
+  padding: 0px 0px 10px 150px;
+  background-color: white;
 }
 
-.listFour {
-  list-style-type: decimal;
-  padding-left: 28px;
-  text-align: justify;
-  line-height: 32px;
-}
-
-/* Step Four Links */
-
-.linkStepFour:visited {
-  text-decoration: none;
-  color: black;
-  font-weight: lighter;
-}
-
-.linkStepFour:link {
-  text-decoration: none;
-  color: black;
-  font-weight: lighter;
-}
-
-.linkStepFour:hover {
-  text-decoration: none;
-  color: #939598;
-  font-weight: lighter;
-}
-
-.linkStepFour:active {
-  text-decoration: none;
-  color: black;
-  font-weight: lighter;
-}
